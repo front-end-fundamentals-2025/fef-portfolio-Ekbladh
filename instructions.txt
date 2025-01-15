@@ -1,0 +1,13 @@
+Assignment 1: Creating your first website
+Inlämningsdatum Söndag av 18:00 Poäng 0 Lämnar in en länk till webbplats
+In this and the following assignments, you will be working on building your own portfolio.
+
+Before you start, you need to create a GitHub repository by using this link: https://classroom.github.com/a/tv89ZcpoLinks to an external site.
+
+For this first assignment, you will create a web page about yourself and a contact page. Start by structuring the pages with semantic HTML elements. When this is done, you should add some basic styling using CSS. Don’t worry about the layout yet; you will learn how to work with this in the coming lectures.
+
+If you have comments in your code, make sure they are written in English. No other languages are allowed.
+
+Commit and push your website, including both pages (the one about you and the contact page) to your GitHub repository and publish the repository using GitHub Pages. Submit the URL to your published website here.
+
+After that, show your website to Eveline, Mira, or Lotte at one of the labs during week 4 (the week after the submission deadline). If you don’t present this week, the next opportunity will be during re-exam week in June.

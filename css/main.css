@@ -4,7 +4,8 @@ body {
 
 h1 {
   color: blanchedalmond;
-  font-size: 14vw; /*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+  font-size: 12vw; /*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+  margin-left: 4%;
   font-family: sans-serif;
 }
 
@@ -13,4 +14,11 @@ p {
   font-size: 40px;
   font-family: sans-serif;
   font-variant: small-caps;
+}
+
+footer {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
 }
