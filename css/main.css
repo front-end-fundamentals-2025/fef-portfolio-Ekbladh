@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(30, 30, 30);
+}
+
+h1 {
+  color: blanchedalmond;
+  font-size: 14vw; /*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+  font-family: sans-serif;
+}
+
+p {
+  color: blanchedalmond;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-variant: small-caps;
+}
