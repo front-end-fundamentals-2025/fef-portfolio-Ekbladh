@@ -2,23 +2,90 @@ body {
   background-color: rgb(30, 30, 30);
 }
 
+nav {
+  padding-top: 20px;
+  margin-left: 4%;
+}
+
 h1 {
   color: blanchedalmond;
-  font-size: 12vw; /*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+  font-size: 12vw; /* This line was written with help from this link: https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+  margin-left: 4%;
+  font-family: sans-serif;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: blanchedalmond;
+  font-size: 50px;
+  margin-left: 4%;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
   margin-left: 4%;
   font-family: sans-serif;
 }
 
 p {
-  color: blanchedalmond;
-  font-size: 40px;
+  color: rgb(255, 255, 255);
+  width: 50%;
+  font-size: 20px;
+  margin-left: 4%;
   font-family: sans-serif;
-  font-variant: small-caps;
+}
+
+.footer-text {
+  font-weight: 600;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-left: 2%;
+  font-family: sans-serif;
+  text-decoration: none; /* This line was written with help from this link: https://stackoverflow.com/questions/10853881/how-to-remove-underline-from-a-link-in-html*/
+}
+
+hr {
+  /* The following 4 lines was written with help from this link: https://stackoverflow.com/questions/4151743/how-can-i-change-the-thickness-of-my-hr-tag */
+  border: none;
+  height: 10px;
+  color: #333;
+  background-color: #333;
+  margin-top: 500px;
+  margin-bottom: 80px;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+strong {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  margin-top: 1000px;
+  margin-bottom: 80px;
 }
 
 footer {
   font-size: 30px;
   font-family: sans-serif;
+  font-weight: 1000;
   color: white;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+#message-box {
+  height: 200px;
+  width: 700px;
+}
+
+form {
+  margin-left: 6%;
 }
