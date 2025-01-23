@@ -89,3 +89,11 @@ footer {
 form {
   margin-left: 6%;
 }
+
+.project-images {
+  width: 20%;
+}
+
+#tall-image {
+  width: 100px;
+}
