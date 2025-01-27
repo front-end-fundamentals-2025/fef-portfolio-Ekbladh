@@ -4,12 +4,16 @@
 }
 
 body {
-  background-color: rgb(30, 30, 30);
+  background-color: rgb(25, 25, 25);
 }
 
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
+}
+
+html {
+  --site-color: rgb(193, 152, 218);
 }
 
 /* Header */
@@ -27,7 +31,7 @@ header {
 }
 
 h1 {
-  color: rgb(145, 161, 197);
+  color: var(--site-color);
   font-size: 10vw;
   margin: 0;
   margin-top: 5rem;
@@ -208,5 +212,30 @@ figcaption {
   }
   h2 {
     font-size: 1.1rem;
+  }
+}
+
+/* Animation */
+
+.hover-color:hover {
+  animation-name: hover-change-size-and-rotate;
+  color: var(--site-color);
+  transition: color 0.4s ease;
+  animation-duration: 1.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hover-change-size-and-rotate {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  33% {
+    transform: rotate(1deg) scale(1.05);
+  }
+  66% {
+    transform: rotate(-1deg) scale(1.05);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
   }
 }
