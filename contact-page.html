@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alwin Ekbladh Contact</title>
     <link rel="stylesheet" href="css/main.css" />
+    <script src="JS\main.js" defer></script>
   </head>
   <body>
     <header>
@@ -17,13 +18,14 @@
       </nav>
     </header>
     <main>
-      <form>
-        <input type="text" value="Your e-mail" id="email-box" />
+      <div id="form-div">
+        <input type="text" placeholder="Your e-mail" id="email-box" />
         <br />
-        <input type="text" value="" id="message-box" />
+        <textarea id="message-box"></textarea>
         <br />
-        <input type="submit" value="Submit" id="sumbit-button" />
-      </form>
+        <input type="submit" value="Submit" id="submit-button" />
+      </div>
+      <div id="email-confirm"></div>
     </main>
   </body>
 </html>

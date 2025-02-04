@@ -102,14 +102,21 @@ hr {
 #message-box {
   height: 14rem;
   width: 40rem;
+  background-color: rgb(25, 25, 25);
+  border-radius: 12px;
 }
 
-form {
+#form-div {
   margin-top: 7rem;
 }
 
 input {
   color: black;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  border-radius: 12px;
+  height: 2rem;
+  font-size: 1.3rem;
 }
 
 /* Images */
@@ -153,14 +160,12 @@ figcaption {
 
 @media screen and (max-width: 1600px) {
   .project-container {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 1200px) {
   .project-container {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
   .invisible-caption {
@@ -191,9 +196,9 @@ figcaption {
   }
 }
 
-@media screen and (max-width: 194px) {
+@media screen and (max-width: 302px) {
   #email-box {
-    width: calc(93%);
+    width: calc(92%);
   }
 }
 
